@@ -26,13 +26,6 @@ st.title(':black[:film_frames: GIF Converter :film_frames:]')
 
 st.sidebar.header('Upload Files')
 file_upload = st.sidebar.file_uploader("Select a File.", type=['mov', 'mp4'])
-st.sidebar.markdown('''
------Made by Aditya Singh
-
-Amity University,
-
-Lucknow Campus-----
-''')
 
 st.subheader('Disclaimer')
 with st.expander('Show'):
@@ -50,6 +43,8 @@ with st.expander('Show'):
     :cookie: If you are happy with the result press download. Now, use the gif as you may!
     
     :sparkling_heart: Enjoy! :sparkling_heart:
+    
+    - Made by Aditya Singh
     
     '''
     )
