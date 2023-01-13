@@ -26,6 +26,11 @@ st.title(':black[:film_frames: GIF Converter :film_frames:]')
 
 st.sidebar.header('Upload Files')
 file_upload = st.sidebar.file_uploader("Select a File.", type=['mov', 'mp4'])
+st.sidebar.markdown('''
+Made by Aditya Singh
+Amity University,
+Lucknow Campus.
+''')
 
 st.subheader('Disclaimer')
 with st.expander('Show'):
