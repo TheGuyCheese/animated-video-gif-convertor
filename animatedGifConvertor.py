@@ -28,7 +28,9 @@ st.sidebar.header('Upload Files')
 file_upload = st.sidebar.file_uploader("Select a File.", type=['mov', 'mp4'])
 st.sidebar.markdown('''
 Made by Aditya Singh
+
 Amity University,
+
 Lucknow Campus.
 ''')
 
